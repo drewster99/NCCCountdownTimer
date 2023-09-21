@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "NCCCountdownTimer",
+    name: "NCCSwiftTimers",
     platforms: [
         .iOS(.v15),
         .macOS(.v12)
