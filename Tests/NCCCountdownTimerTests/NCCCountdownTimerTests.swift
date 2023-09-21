@@ -1,7 +1,7 @@
 import XCTest
-@testable import NCCCountdownTimer
+@testable import NCCSwiftTimers
 
-final class NCCCountdownTimerTests: XCTestCase {
+final class NCCSwiftTimersTests: XCTestCase {
     func testExample() throws {
         // XCTest Documentation
         // https://developer.apple.com/documentation/xctest

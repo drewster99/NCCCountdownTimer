@@ -1,6 +1,6 @@
 //
 //  NCCCountdownTimer.swift
-//  NCCCountdownTimer
+//  NCCSwiftTimers
 //
 //  Created by Andrew Benson on 9/18/23.
 //  Copyright (C) 2023 Nuclear Cyborg Corp
@@ -10,12 +10,12 @@ import SwiftUI
 import OSLog
 
 @available(iOS 15.0, *)
-class NCCCountdownTimer: NSObject, ObservableObject {
+public class NCCCountdownTimer: NSObject, ObservableObject {
     /// Logging subsystem and category
     private let logger = Logger(subsystem: "VisualTimer", category: "NCCCountdownTimer")
 
     /// The current mode of the NCCCountdownTimer
-    enum Mode {
+    public enum Mode {
         /// Timer is not running and has `interval` seconds remaining
         case stopped(interval: TimeInterval)
 
